@@ -8,9 +8,9 @@
             <div class="col-sm-6">
                 <div class="card support-bar overflow-hidden">
                     <div class="card-body pb-0">
-                        <h2 class="m-0">{{$karyawan}}</h2>
-                        <span class="text-c-blue">Data Masuk</span>
-                        <p class="mb-3 mt-3">Total Karyawan</p>
+                        <h2 class="m-0">{{$peserta}}</h2>
+                        <span class="text-c-blue">Data Peserta</span>
+                        <p class="mb-3 mt-3">Total Peserta</p>
                     </div>
                     <div id="support-chart"></div>
 
@@ -19,9 +19,9 @@
             <div class="col-sm-6">
                 <div class="card support-bar overflow-hidden">
                     <div class="card-body pb-0">
-                        <h2 class="m-0">{{$perusahaan}}</h2>
-                        <span class="text-c-green">Data Masuk</span>
-                        <p class="mb-3 mt-3">Total Perusahaan.</p>
+                        <h2 class="m-0">{{$instruktur}}</h2>
+                        <span class="text-c-green">Data Instruktur</span>
+                        <p class="mb-3 mt-3">Total Instruktur.</p>
                     </div>
                     <div id="support-chart1"></div>
 

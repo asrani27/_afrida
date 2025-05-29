@@ -30,7 +30,7 @@ class LoginController extends Controller
                 return 'role lain';
             }
         }
-        return view('welcome');
+        return view('login');
     }
     public function login(Request $req)
     {
