@@ -15,6 +15,6 @@ class HomeController extends Controller
     {
         $peserta = Peserta::count();
         $instruktur = Instruktur::count();
-        return view('superadmin.home', compact('karyawan', 'perusahaan'));
+        return view('superadmin.home', compact('peserta', 'instruktur'));
     }
 }
